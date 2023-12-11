@@ -1,2 +1,2 @@
 require("bencouser")
-vim.cmd("colorscheme tokyonight")
+--vim.cmd("colorscheme tokyonight")

@@ -1,7 +1,7 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
--- insert semi to end of line
+-- insert semi
 vim.keymap.set("n", "<leader>;", "A;<Esc>")
 
 -- move things up and down in visual

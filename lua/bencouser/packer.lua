@@ -15,7 +15,7 @@ return require('packer').startup(function(use)
   }
 
   use "folke/tokyonight.nvim"
-  
+
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
   use('nvim-lua/plenary.nvim')
@@ -25,7 +25,7 @@ return require('packer').startup(function(use)
 	  branch = "harpoon2",
 	  requires = { {"nvim-lua/plenary.nvim"} }
   }
-  
+
   use('mbbill/undotree')
 
   use('tpope/vim-fugitive')
@@ -52,6 +52,5 @@ return require('packer').startup(function(use)
 	  "williamboman/mason-lspconfig.nvim",
 	  "neovim/nvim-lspconfig",
   }
-
 
 end)
